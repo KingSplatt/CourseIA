@@ -21,7 +21,7 @@ Este código implementa un arbol en python, en cual consiste de lo siguiente:
 
 - _buscar:_ Método recursivo para buscar un valor en el árbol. Si el valor es encontrado en el nodo actual, devuelve True. Si es menor, busca en el subárbol izquierdo; si es mayor, en el subárbol derecho. Si no lo encuentra, devuelve False.
 
-## Authors
+## Autores
 
 - [@Peña Lopez Miguel Angel](https://github.com/KingSplatt)
 

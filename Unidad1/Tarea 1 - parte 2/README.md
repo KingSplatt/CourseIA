@@ -16,7 +16,7 @@ Los sistemas expertos: Primeros intentos de desarrollar inteligencia artificial 
 
 ##
 
-## Authors
+## Autores
 
 - [@Peña Lopez Miguel Angel](https://github.com/KingSplatt)
 
