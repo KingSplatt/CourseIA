@@ -1,8 +1,3 @@
-Equipo:
-
-- Miguel Angel Peña Lopez
-- Jacquelin Robles Rios
-
 # Arbol binario de busqueda
 
 Este código implementa un arbol en python, en cual consiste de lo siguiente:
