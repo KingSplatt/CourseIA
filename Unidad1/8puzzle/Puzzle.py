@@ -1,6 +1,22 @@
 import random
 import heapq
 
+
+    #para cada uno de los nodos, se calcula la distancia manhattan y se agrega a la cola de prioridad
+    #se toma el nodo con menor peso y se expande
+def busqueda_a_estrella(inicial, objetivo):
+        visitados = set()
+        pendientes = []
+        
+
+        return None
+
+# calcular la distancia manhattan |x2 - x1| + |y2 - y1|
+def distancia_manhattan(puzzle, objetivo):
+    distancia = 0
+    
+    return distancia
+
 class Nodo:
     def __init__(self, puzzle, movimiento, cant_mov, manhattan, previo):
         self.cant_mov = cant_mov
@@ -38,7 +54,6 @@ class Nodo:
             return nuevo_puzzle
         return None
 
-
     # Metodo para encontrar el nodo siguiente
     def encontrar_siguientes_nodos(self):
         siguientes_nodos = []
@@ -66,6 +81,8 @@ def main():
 
     print("Puzzle objetivo")
     print(puz_objetivo)
+
+    resultado = busqueda_a_estrella(inicial, objetivo)
         
 if __name__ == "__main__":
         main()
