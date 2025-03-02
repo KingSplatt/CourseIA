@@ -1,21 +1,21 @@
 import random
 import heapq
 
-    #para cada uno de los nodos, se calcula la distancia manhattan y se agrega a la cola de prioridad
-    #se toma el nodo con menor peso y se expande
+#para cada uno de los nodos, se calcula la distancia manhattan y se agrega a la cola de prioridad
+#se toma el nodo con menor peso y se expande
 def busqueda_a_estrella(inicial, objetivo):
-        pendientes = []
-        visitados = set()
-        heapq.heappush(pendientes, inicial)
-        while pendientes:
-            actual = heapq.heappop(pendientes)
-            if actual.puzzle == objetivo.puzzle:
-                return actual
-            visitados.add(str(actual.puzzle))
-            for vecinos in actual.encontrar_siguientes_nodos():
-                if str(vecinos.puzzle) not in visitados:
-                    heapq.heappush(pendientes, vecinos)
-        return None
+    pendientes = []
+    visitados = set()
+    heapq.heappush(pendientes, inicial)
+    while pendientes:
+        actual = heapq.heappop(pendientes)
+        if actual.puzzle == objetivo.puzzle:
+            return actual
+        visitados.add(str(actual.puzzle))
+        for vecinos in actual.encontrar_siguientes_nodos():
+            if str(vecinos.puzzle) not in visitados:
+                heapq.heappush(pendientes, vecinos)
+    return None
 
 # calcular la distancia manhattan |x2 - x1| + |y2 - y1|
 def distancia_manhattan(puzzle, objetivo):
@@ -29,10 +29,7 @@ def distancia_manhattan(puzzle, objetivo):
         for j in range(3):
             valor = puzzle[i][j]
             if valor != 0:
-
-                objetivo_i = posiciones_objetivo[valor][0] # pendiente confirmar
-                objetivo_j = posiciones_objetivo[valor][1] # pendiente confirmar
-                
+                objetivo_i, objetivo_j = posiciones_objetivo[valor]
                 distancia += abs(objetivo_i - i) + abs(objetivo_j - j)
     return distancia
 
@@ -82,7 +79,7 @@ class Nodo:
         for movimiento in movimientos:
             nuevo_puzzle = self.mover_pieza(movimiento)
             if nuevo_puzzle is not None:
-                siguientes_nodos.append()  # Se agrega el nodo a la lista de nodos, pendiente se nececita implementar la distancia manhattan
+                siguientes_nodos.append(Nodo(nuevo_puzzle, movimiento, self.cant_mov + 1, distancia_manhattan(nuevo_puzzle,puz_objetivo ), self))  # Se agrega el nodo a la lista de nodos, pendiente se nececita implementar la distancia manhattan
         return siguientes_nodos
     
     def impimir_recorrido(self,inical):
@@ -96,12 +93,17 @@ class Nodo:
         return camino
     
     def imprimir(self):
+        print("================================")
         for fila in self.puzzle:
             print(fila)
+        print("================================")
         print()
+        print()
+        print()
+
         
 
-puzzle = [[1,2,3],[4,5,6],[7,8,0]]
+puzzle = [[2,8,3],[1,6,4],[7,0,5]]
 puz_objetivo = [[1, 5, 3], [4, 2, 6], [7, 8, 0]]
 
 def main():
@@ -128,4 +130,4 @@ def main():
             
         
 if __name__ == "__main__":
-        main()
+    main()
