@@ -1,14 +1,20 @@
 import random
 import heapq
 
-
     #para cada uno de los nodos, se calcula la distancia manhattan y se agrega a la cola de prioridad
     #se toma el nodo con menor peso y se expande
 def busqueda_a_estrella(inicial, objetivo):
-        visitados = set()
         pendientes = []
-        
-
+        visitados = set()
+        heapq.heappush(pendientes, inicial)
+        while pendientes:
+            actual = heapq.heappop(pendientes)
+            if actual.puzzle == objetivo.puzzle:
+                return actual
+            visitados.add(str(actual.puzzle))
+            for vecinos in actual.encontrar_siguientes_nodos():
+                if str(vecinos.puzzle) not in visitados:
+                    heapq.heappush(pendientes, vecinos)
         return None
 
 # calcular la distancia manhattan |x2 - x1| + |y2 - y1|
@@ -37,8 +43,10 @@ class Nodo:
         self.movimiento = movimiento
         self.manhattan = manhattan
         self.previo = previo
-
-#  Metodo para mover la pieza
+    # Ocupamos un comparador para pq
+    def __lt__(self, otro):
+        return (self.cant_mov + self.manhattan) < (otro.cant_mov + otro.manhattan)
+    # Metodo para mover la pieza
     def mover_pieza(self, movimiento):
         puzzle = self.puzzle
         nuevo_puzzle = []
@@ -76,26 +84,48 @@ class Nodo:
             if nuevo_puzzle is not None:
                 siguientes_nodos.append()  # Se agrega el nodo a la lista de nodos, pendiente se nececita implementar la distancia manhattan
         return siguientes_nodos
+    
+    def impimir_recorrido(self,inical):
+        camino = []
+        actual = self
+        while actual != None:
+            camino.append(actual)
+            actual = actual.previo
+        camino.append(inical)
+        camino.reverse()
+        return camino
+    
+    def imprimir(self):
+        for fila in self.puzzle:
+            print(fila)
+        print()
+        
 
-puzzle = [[1,2,3],
-            [4,5,6],
-            [7,8,0]]
-puz_objetivo = [[1, 5, 3], 
-                    [4, 2, 6], 
-                    [7, 8, 0]]
+puzzle = [[1,2,3],[4,5,6],[7,8,0]]
+puz_objetivo = [[1, 5, 3], [4, 2, 6], [7, 8, 0]]
 
 def main():
     
     inicial = Nodo(puzzle, None, 0, 0, None)
-    bjetivo = Nodo(puz_objetivo, None, 0, 0, None)
+    objetivo = Nodo(puz_objetivo, None, 0, 0, None)
 
     print("Puzzle inicial")
-    print(puzzle)
+    print(inicial.imprimir())
 
     print("Puzzle objetivo")
-    print(puz_objetivo)
+    print(objetivo.imprimir())
 
     resultado = busqueda_a_estrella(inicial, objetivo)
+    
+    if resultado is None:
+        print("No se encontró solución")
+    else:
+        for nodo in resultado.impimir_recorrido(inicial):
+            print("Movimiento: ", nodo.movimiento)
+            print("Manhattan: ", nodo.manhattan)
+            print("Cantidad de movimientos: ", nodo.cant_mov)
+            nodo.imprimir()
+            
         
 if __name__ == "__main__":
         main()
