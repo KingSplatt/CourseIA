@@ -51,6 +51,32 @@ Donde:
 
 ```
 
+## En nuestro caso:
+
+- Calculamos la proporcion de correos spam: la cantidad de correos que son spam segun el dataset y se divide entre el total de correos
+
+- Calculamos la proporcion de correos : 1 - Probabilidad spam
+
+- Calcular la probabilidad de que un correo sea spam:
+
+Como estamos utilizando un dataset con el mensaje y el su clasificacion, debemos de calcular en este caso lo siguiente:
+
+```bash
+                            P(spam|mensaje) = P(mensaje|spam) * P(spam) / P(mensaje)
+Donde:
+
+    P(spam) es la proporción de correos spam en el dataset.
+
+    P(mensaje) es la probabilidad total de que un mensaje ocurra spam o no spam.
+
+    P(mensaje|spam) es la probabilidad de que el mensaje sea spam.
+
+    Lo que queremos calcular:
+    P(spam|mensaje)
+
+
+```
+
 ## Autores
 
 - [@Peña Lopez Miguel Angel](https://github.com/KingSplatt)
