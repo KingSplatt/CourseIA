@@ -1,0 +1,186 @@
+[
+    {
+        "nombre": "Gripe (Influenza)",
+        "sistema_afectado": "Respiratorio",
+        "causa": "Infección viral (virus influenza)",
+        "signos_sintomas": [
+            "Fiebre",
+            "Dolor de cabeza",
+            "Dolor muscular",
+            "Congestión nasal",
+            "Tos seca",
+            "Cansancio"
+        ],
+        "gravedad": "Leve a moderada",
+        "diagnostico": "Clínico por síntomas, prueba rápida de influenza",
+        "tratamiento": "Reposo, líquidos, medicamentos antipiréticos, antivirales en casos graves",
+        "edad": "Todas las edades, más frecuente en niños y adultos mayores"
+    },
+    {
+        "nombre": "Gastritis",
+        "sistema_afectado": "Digestivo",
+        "causa": "Irritación de la mucosa gástrica (estrés, alcohol, medicamentos, infección por H. pylori)",
+        "signos_sintomas": [
+            "Dolor abdominal",
+            "Acidez",
+            "Náuseas",
+            "Vómitos",
+            "Sensación de plenitud"
+        ],
+        "gravedad": "Leve a moderada",
+        "diagnostico": "Clínico, endoscopia en casos persistentes",
+        "tratamiento": "Antiácidos, inhibidores de la bomba de protones, erradicación de H. pylori si está presente",
+        "edad": "Adultos jóvenes y mayores"
+    },
+    {
+        "nombre": "Migraña",
+        "sistema_afectado": "Neurológico",
+        "causa": "Desconocida (factores genéticos, hormonales y ambientales)",
+        "signos_sintomas": [
+            "Dolor de cabeza intenso",
+            "Náuseas",
+            "Sensibilidad a la luz y al sonido",
+            "Aura visual en algunos casos"
+        ],
+        "gravedad": "Variable",
+        "diagnostico": "Clínico por historia médica",
+        "tratamiento": "Analgesia, antiinflamatorios, triptanes, medidas preventivas",
+        "edad": "Adolescentes y adultos jóvenes"
+    },
+    {
+        "nombre": "Dermatitis Atópica",
+        "sistema_afectado": "Piel",
+        "causa": "Trastorno inflamatorio crónico, predisposición genética",
+        "signos_sintomas": [
+            "Picazón intensa",
+            "Piel seca",
+            "Enrojecimiento",
+            "Lesiones eccematosas"
+        ],
+        "gravedad": "Leve a moderada",
+        "diagnostico": "Clínico por evaluación dermatológica",
+        "tratamiento": "Hidratación de la piel, corticoides tópicos, antihistamínicos",
+        "edad": "Frecuente en niños, pero puede persistir en adultos"
+    },
+    {
+        "nombre": "Resfriado Común",
+        "sistema_afectado": "Respiratorio",
+        "causa": "Infección viral (rinovirus, coronavirus, etc.)",
+        "signos_sintomas": [
+            "Congestión nasal",
+            "Estornudos",
+            "Tos leve",
+            "Dolor de garganta",
+            "Malestar general"
+        ],
+        "gravedad": "Leve",
+        "diagnostico": "Clínico por síntomas",
+        "tratamiento": "Reposo, hidratación, medicamentos sintomáticos",
+        "edad": "Todas las edades"
+    },
+    {
+        "nombre": "Conjuntivitis",
+        "sistema_afectado": "Ocular",
+        "causa": "Infección viral, bacteriana o alergias",
+        "signos_sintomas": [
+            "Enrojecimiento ocular",
+            "Picazón",
+            "Secreción",
+            "Lagrimeo",
+            "Sensación de cuerpo extraño"
+        ],
+        "gravedad": "Leve",
+        "diagnostico": "Clínico por examen ocular",
+        "tratamiento": "Higiene ocular, colirios antibióticos o antihistamínicos según causa",
+        "edad": "Todas las edades"
+    },
+    {
+        "nombre": "Faringitis",
+        "sistema_afectado": "Respiratorio (garganta)",
+        "causa": "Infección viral o bacteriana (estreptococo)",
+        "signos_sintomas": [
+            "Dolor de garganta",
+            "Dificultad al tragar",
+            "Fiebre",
+            "Inflamación de amígdalas"
+        ],
+        "gravedad": "Leve a moderada",
+        "diagnostico": "Clínico, prueba rápida estreptocócica si es necesario",
+        "tratamiento": "Analgésicos, antibióticos si es bacteriana",
+        "edad": "Niños y adultos jóvenes"
+    },
+    {
+        "nombre": "Otitis Media",
+        "sistema_afectado": "Auditivo",
+        "causa": "Infección bacteriana o viral del oído medio",
+        "signos_sintomas": [
+            "Dolor de oído",
+            "Fiebre",
+            "Disminución de la audición",
+            "Secreción en casos complicados"
+        ],
+        "gravedad": "Leve a moderada",
+        "diagnostico": "Otoscopía",
+        "tratamiento": "Analgésicos, antibióticos en casos bacterianos",
+        "edad": "Frecuente en niños menores de 5 años"
+    },
+    {
+        "nombre": "Cistitis",
+        "sistema_afectado": "Urinario",
+        "causa": "Infección bacteriana de la vejiga (E. coli)",
+        "signos_sintomas": [
+            "Dolor o ardor al orinar",
+            "Aumento de la frecuencia urinaria",
+            "Orina turbia o con mal olor",
+            "Dolor suprapúbico"
+        ],
+        "gravedad": "Leve a moderada",
+        "diagnostico": "Uroanálisis y urocultivo",
+        "tratamiento": "Antibióticos, hidratación abundante",
+        "edad": "Adultos, más frecuente en mujeres"
+    },
+    {
+        "nombre": "Lumbalgia",
+        "sistema_afectado": "Musculoesquelético",
+        "causa": "Sobrecarga muscular, mala postura, degeneración discal",
+        "signos_sintomas": [
+            "Dolor lumbar",
+            "Rigidez",
+            "Limitación de movimiento"
+        ],
+        "gravedad": "Leve a moderada",
+        "diagnostico": "Clínico, estudios de imagen si persiste",
+        "tratamiento": "Reposo relativo, analgésicos, fisioterapia",
+        "edad": "Adultos jóvenes y mayores"
+    },
+    {
+        "nombre": "Alergia Estacional",
+        "sistema_afectado": "Respiratorio",
+        "causa": "Exposición a pólenes u otros alérgenos ambientales",
+        "signos_sintomas": [
+            "Estornudos",
+            "Congestión nasal",
+            "Picazón ocular y nasal",
+            "Lagrimeo"
+        ],
+        "gravedad": "Leve",
+        "diagnostico": "Clínico, pruebas de alergia",
+        "tratamiento": "Antihistamínicos, evitar alérgenos",
+        "edad": "Todas las edades"
+    },
+    {
+        "nombre": "Bronquitis Aguda",
+        "sistema_afectado": "Respiratorio",
+        "causa": "Infección viral o bacteriana",
+        "signos_sintomas": [
+            "Tos persistente",
+            "Producción de esputo",
+            "Malestar general",
+            "Fiebre leve"
+        ],
+        "gravedad": "Leve a moderada",
+        "diagnostico": "Clínico",
+        "tratamiento": "Reposo, hidratación, broncodilatadores si hay obstrucción",
+        "edad": "Todas las edades"
+    }
+]
