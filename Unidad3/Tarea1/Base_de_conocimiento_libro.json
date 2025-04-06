@@ -1,0 +1,219 @@
+[
+    {
+      "nombre": "Crup (Laringotraqueobronquitis aguda)",
+      "sistema_afectado": "Sistema Respiratorio",
+      "causa": "Infección viral",
+      "signos_sintomas": ["Tos perruna", "Estridor", "Síntomas respiratorios superiores", "Febrícula"],
+      "gravedad": "Moderada",
+      "diagnostico": "Evaluación clínica",
+      "tratamiento": ["Corticoides", "Nebulizaciones con epinefrina", "Hidratación"]
+    },
+    {
+      "nombre": "Bronquiolitis",
+      "sistema_afectado": "Sistema Respiratorio",
+      "causa": "Infección viral (común en menores de 18 meses)",
+      "signos_sintomas": ["Taquipnea", "Sibilancias", "Tos"],
+      "gravedad": "Moderada",
+      "diagnostico": "Evaluación clínica",
+      "tratamiento": ["Soporte respiratorio", "Oxigenoterapia si es necesario"]
+    },
+    {
+      "nombre": "Epiglotitis",
+      "sistema_afectado": "Sistema Respiratorio",
+      "causa": "Infección bacteriana (Haemophilus influenzae tipo B)",
+      "signos_sintomas": ["Fiebre alta", "Babeo", "Dificultad respiratoria", "Aspecto tóxico"],
+      "gravedad": "Alta",
+      "diagnostico": "Laringoscopía bajo control de vía aérea",
+      "tratamiento": ["Antibióticos IV", "Intubación si hay obstrucción"]
+    },
+    {
+      "nombre": "Tos por reflujo gastroesofágico",
+      "sistema_afectado": "Sistema Respiratorio",
+      "causa": "Microaspiración del contenido gástrico",
+      "signos_sintomas": ["Tos nocturna", "Regurgitación", "Ardor retroesternal"],
+      "gravedad": "Leve a moderada",
+      "diagnostico": "pHmetría esofágica, historia clínica",
+      "tratamiento": ["Inhibidores de bomba de protones", "Cambios posturales"]
+    },
+    {
+      "nombre": "Asma infantil",
+      "sistema_afectado": "Sistema Respiratorio",
+      "causa": "Hiperreactividad bronquial",
+      "signos_sintomas": ["Sibilancias", "Disnea con esfuerzo", "Tos nocturna", "Congestión nasal"],
+      "gravedad": "Variable",
+      "diagnostico": "Evaluación clínica, pruebas de función pulmonar",
+      "tratamiento": ["Broncodilatadores", "Corticoesteroides inhalados"]
+    },
+    {
+      "nombre": "Cuerpo extraño en vía aérea",
+      "sistema_afectado": "Sistema Respiratorio",
+      "causa": "Inhalación accidental de objeto",
+      "signos_sintomas": ["Tos súbita", "Asfixia", "Silencio respiratorio parcial"],
+      "gravedad": "Alta",
+      "diagnostico": "Radiografía de tórax inspiratoria/espiratoria, Broncoscopía",
+      "tratamiento": ["Extracción endoscópica urgente"]
+    },
+    {
+      "nombre": "Tos psicógena",
+      "sistema_afectado": "Sistema Respiratorio",
+      "causa": "Trastorno funcional",
+      "signos_sintomas": ["Tos perruna persistente", "Ausente durante el sueño", "No asociada a fiebre"],
+      "gravedad": "Leve",
+      "diagnostico": "Diagnóstico de exclusión",
+      "tratamiento": ["Psicoterapia", "Educación familiar"]
+  },
+  {
+    "nombre": "Malformaciones arteriovenosas durales",
+    "sistema_afectado": "Sistema Vascular",
+    "causa": "Conexiones anómalas entre arterias y venas en el espacio dural",
+    "signos_sintomas": ["Acúfenos pulsátiles unilaterales", "Soplos sobre el cráneo", "Dolor de cabeza ocasional"],
+    "gravedad": "Moderada",
+    "diagnostico": "Angiografía cerebral",
+    "tratamiento": ["Embolización endovascular", "Cirugía en casos seleccionados"]
+  },
+  {
+    "nombre": "Tumor vascular del oído medio (Glomus timpánico o yugular)",
+    "sistema_afectado": "Sistema Vascular",
+    "causa": "Tumor altamente vascularizado",
+    "signos_sintomas": ["Acúfeno pulsátil", "Soplo audible", "Masa visible detrás del tímpano"],
+    "gravedad": "Moderada a alta",
+    "diagnostico": "TC, RM, angiografía",
+    "tratamiento": ["Cirugía", "Embolización preoperatoria"]
+  },
+  {
+    "nombre": "Flujo turbulento en carótida o yugular",
+    "sistema_afectado": "Sistema Vascular",
+    "causa": "Ateroesclerosis o compresión vascular",
+    "signos_sintomas": ["Murmullo venoso del cuello", "Acúfeno modulable con rotación de cabeza"],
+    "gravedad": "Leve a moderada",
+    "diagnostico": "Doppler carotideo", 
+    "tratamiento": ["Observación", "Corrección de la causa subyacente si es necesaria"]
+  },
+  {
+    "nombre": "Mioclonía del oído medio (espasmo de músculos palatinos o del estribo)",
+    "sistema_afectado": "Sistema Vascular",
+    "causa": "Trastorno neuromuscular o vascular",
+    "signos_sintomas": ["Chasquidos repetitivos", "Movimientos visibles del paladar o tímpano"],
+    "gravedad": "Leve",
+    "diagnostico": "Exploración otológica y neurológica, RM cerebral",
+    "tratamiento": ["Tratamiento de causa neurológica", "Cirugía si es persistente"]
+  },
+  {
+    "nombre": "Granulomatosis con poliangeítis (Wegener)",
+    "sistema_afectado": "Sistema Vascular",
+    "causa": "Vasculitis necrosante de vasos pequeños y medianos",
+    "signos_sintomas": ["Rinorrea purulenta con sangre", "Ulceraciones nasales", "Insuficiencia renal", "Nódulos pulmonares"],
+    "gravedad": "Alta",
+    "diagnostico": "Biopsia, ANCA positivos",
+    "tratamiento": ["Corticoides", "Ciclofosfamida o rituximab"]
+  },
+  {
+    "nombre": "Síndrome de Goodpasture",
+    "sistema_afectado": "Sistema Vascular",
+    "causa": "Enfermedad autoinmune que afecta glomérulos y pulmones",
+    "signos_sintomas": ["Hematuria", "Edema", "Hemoptisis", "Insuficiencia renal progresiva"],
+    "gravedad": "Muy alta",
+    "diagnostico": "ANCA, anticuerpos anti-membrana basal glomerular, biopsia renal",
+    "tratamiento": ["Plasmaféresis", "Inmunosupresores"]
+    },
+    {
+        "nombre": "Esclerosis múltiple",
+        "sistema_afectado": "Sistema Nervioso Central",
+        "causa": "Desmielinización autoinmune del sistema nervioso central",
+        "signos_sintomas": ["Debilidad muscular", "Visión borrosa", "Parestesias", "Fatiga", "Ataxia"],
+        "gravedad": "Variable",
+        "diagnostico": "RM con gadolinio, análisis de LCR (bandas oligoclonales)",
+        "tratamiento": ["Corticoesteroides", "Inmunomoduladores", "Fisioterapia", "Vitaminas del complejo B"] 
+      },
+      {
+        "nombre": "Accidente Isquémico Transitorio (AIT)",
+        "sistema_afectado": "Sistema Nervioso Central",
+        "causa": "Isquemia transitoria cerebral o retiniana por trombo o embolismo",
+        "signos_sintomas": ["Déficits neurológicos focales reversibles", "Visión borrosa", "Pérdida sensitiva o motora", "Afasia"],
+        "gravedad": "Alta (riesgo de EVC)",
+        "diagnostico": "RM cerebral, ecografía Doppler carotídeo, ECG",
+        "tratamiento": ["AAS", "Control de presión arterial", "Anticoagulantes si hay fibrilación auricular"]
+      },
+      {
+        "nombre": "Neuritis óptica",
+        "sistema_afectado": "Sistema Nervioso Central",
+        "causa": "Inflamación del nervio óptico, frecuentemente asociada a esclerosis múltiple",
+        "signos_sintomas": ["Dolor con movimiento ocular", "Pérdida visual monocular", "Alteración del color", "Edema del disco óptico"],
+        "gravedad": "Moderada",
+        "diagnostico": "RM con gadolinio",
+        "tratamiento": ["Corticoesteroides intravenosos", "Monitoreo neurológico"]
+      },
+      {
+        "nombre": "Encefalitis viral",
+        "sistema_afectado": "Sistema Nervioso Central",
+        "causa": "Infección por virus como herpes simple, arbovirus o enterovirus",
+        "signos_sintomas": ["Fiebre", "Convulsiones", "Alteración del estado mental", "Déficits neurológicos focales"],
+        "gravedad": "Alta",
+        "diagnostico": "Análisis de LCR, PCR viral, RM cerebral",
+        "tratamiento": ["Aciclovir IV", "Medidas de soporte", "Control de la presión intracraneal"]
+      },
+      {
+        "nombre": "Convulsiones tónico-clónicas generalizadas",
+        "sistema_afectado": "Sistema Nervioso Central",
+        "causa": "Descarga neuronal excesiva por epilepsia, tumor, fiebre o lesión cerebral",
+        "signos_sintomas": ["Pérdida súbita de conciencia", "Sacudidas musculares", "Incontinencia", "Confusión posictal"],
+        "gravedad": "Moderada a alta",
+        "diagnostico": "Electroencefalograma (EEG), neuroimagen",
+        "tratamiento": ["Antiepilépticos", "Monitoreo neurológico", "Evitar factores desencadenantes"]
+      },
+      {
+        "nombre": "Esclerosis lateral amiotrófica (ELA)",
+        "sistema_afectado": "Sistema Nervioso Central",
+        "causa": "Degeneración progresiva de neuronas motoras",
+        "signos_sintomas": ["Debilidad progresiva", "Atrofia muscular", "Fasciculaciones", "Disfagia", "Disartria"],
+        "gravedad": "Muy alta",
+        "diagnostico": "Estudios electrofisiológicos, RMN, análisis genético",
+        "tratamiento": ["Riluzol", "Cuidados paliativos", "Soporte respiratorio y nutricional"]
+        },
+        {
+            "nombre": "Hipertermia ambiental",
+            "sistema_afectado": "Diagnóstico ambiental",
+            "causa": "Exposición prolongada a altas temperaturas ambientales",
+            "signos_sintomas": ["Temperatura corporal > 41°C", "Confusión", "Convulsiones", "Fallo multiorgánico"],
+            "gravedad": "Muy alta",
+            "diagnostico": "Clínico, temperatura central elevada",
+            "tratamiento": ["Enfriamiento inmediato", "Soporte vital", "Reposición de líquidos IV"]
+          },
+          {
+            "nombre": "Contaminación atmosférica urbana",
+            "sistema_afectado": "Diagnóstico ambiental",
+            "causa": "Alta densidad vehicular, emisiones industriales y tráfico",
+            "signos_sintomas": ["Irritación ocular", "Tos crónica", "Asma agravada", "Aumento de enfermedades respiratorias"],
+            "gravedad": "Moderada",
+            "diagnostico": "Evaluación ambiental, índices de calidad del aire",
+            "tratamiento": ["Reducción de exposición", "Uso de mascarillas", "Políticas de movilidad sostenible"]
+          },
+          {
+            "nombre": "Estrés por entorno urbano congestionado",
+            "sistema_afectado": "Diagnóstico ambiental",
+            "causa": "Exposición continua al tráfico, ruido, calor y falta de áreas verdes",
+            "signos_sintomas": ["Ansiedad", "Insomnio", "Irritabilidad", "Fatiga crónica"],
+            "gravedad": "Leve a moderada",
+            "diagnostico": "Evaluación psicológica y ambiental",
+            "tratamiento": ["Terapias de manejo de estrés", "Reducción del tiempo en tráfico", "Aumento de espacios verdes"]
+          },
+          {
+            "nombre": "Síndrome por exposición a contaminantes urbanos",
+            "sistema_afectado": "Diagnóstico ambiental",
+            "causa": "Inhalación constante de partículas PM2.5, ozono, dióxido de nitrógeno",
+            "signos_sintomas": ["Disnea", "Bronquitis crónica", "Cefalea", "Aumento de infecciones respiratorias"],
+            "gravedad": "Moderada",
+            "diagnostico": "Monitoreo de calidad del aire, espirometría",
+            "tratamiento": ["Medidas ambientales", "Broncodilatadores", "Evitar exposición prolongada"]
+          },
+          {
+            "nombre": "Síndrome de adaptación ambiental urbana",
+            "sistema_afectado": "Diagnóstico ambiental",
+            "causa": "Cambio abrupto de estilo de vida rural a urbano, o viceversa",
+            "signos_sintomas": ["Fatiga", "Alteración del sueño", "Alergias frecuentes", "Crisis de ansiedad"],
+            "gravedad": "Leve",
+            "diagnostico": "Evaluación clínica y social",
+            "tratamiento": ["Apoyo psicosocial", "Terapias adaptativas", "Modificación del entorno"]
+            }  
+                      
+]
