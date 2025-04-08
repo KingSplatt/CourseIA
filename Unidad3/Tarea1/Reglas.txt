@@ -49,3 +49,13 @@ E ∧ TL ∧ DG -> RES
 DO ∧ OT ∧ FU -> CIS
 DL ∧ R ∧ LM -> LUM
 EO ∧ P ∧ S ∧ L ∧ SC -> CON
+
+¬(F ∧ DM ∧ CN ∧ TS) → ¬GRI
+¬(DA ∧ A ∧ N) → ¬GAS
+¬(DG ∧ DT ∧ F) → ¬FAR
+¬(DC ∧ N ∧ SL) → ¬MIG
+¬(PI ∧ PS ∧ EN) → ¬DER
+¬(E ∧ TL ∧ DG) → ¬RES
+¬(DO ∧ OT ∧ FU) → ¬CIS
+¬(DL ∧ R ∧ LM) → ¬LUM
+¬(EO ∧ P ∧ S ∧ L ∧ SC) → ¬CON
