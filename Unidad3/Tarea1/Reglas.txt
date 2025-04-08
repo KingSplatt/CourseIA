@@ -1,0 +1,51 @@
+HECHOS
+DM = Dolor muscular
+DA = Dolor Abdominal
+DG = Dolor garganta
+DC = Dolor Cabeza
+DO = Dolor Orinar
+DL = Dolor Lumbar
+
+CN = Congestion Nasal
+DT = Dificultad al tragar
+SL = Sensibilidad Luz
+TS = Tos seca
+PI = Picazon Intensa
+PS = Piel seca
+EN = Enrojecimiento
+TL = Tos Leve
+OT = Orina Turbia
+FU = Frecuencia Urinaria
+LM = Limitacion Movimiento
+EO = Enrojecimiento Ocular
+SC = Sencacion Cuerpo Extraño
+
+F = Fiebre
+A = Acidez
+N = Nauseas
+E = Estornudos
+R = Rigidez
+P = Picazon
+S = Secrecion
+L = Lagrimeo
+
+GRI = GRIPE
+GAS = GASTRITIS
+FAR = FARINGITIS
+MIG = MIGRANA
+DER = DERMATITIS
+RES = RESFRIADO
+CIS = CISTITIS
+LUM = LUMBALGIA
+CON = CONJUNTIVITIS
+
+REGLAS 
+F ∧ DM ∧ CN ∧ TS -> GRI
+DA ∧ A ∧ N -> GAS
+DG ∧ DT ∧ F -> FAR
+DC ∧ N ∧ SL -> MIG
+PI ∧ PS ∧ EN -> DER
+E ∧ TL ∧ DG -> RES
+DO ∧ OT ∧ FU -> CIS
+DL ∧ R ∧ LM -> LUM
+EO ∧ P ∧ S ∧ L ∧ SC -> CON
