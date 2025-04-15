@@ -102,7 +102,10 @@
             "Dolor de garganta",
             "Dificultad al tragar",
             "Fiebre",
-            "Inflamación de amígdalas"
+            "Inflamación de amígdalas",
+            "Babeo",
+            "Voz Gangoza",
+            "Gripe"
         ],
         "gravedad": "Leve a moderada",
         "diagnostico": "Clínico, prueba rápida estreptocócica si es necesario",

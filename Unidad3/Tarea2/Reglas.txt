@@ -19,6 +19,7 @@ FU = Frecuencia Urinaria
 LM = Limitacion Movimiento
 EO = Enrojecimiento Ocular
 SC = Sencacion Cuerpo Extraño
+VG = Voz Gangoza
 
 F = Fiebre
 A = Acidez
@@ -28,6 +29,8 @@ R = Rigidez
 P = Picazon
 S = Secrecion
 L = Lagrimeo
+B = Babeo
+
 
 GRI = GRIPE
 GAS = GASTRITIS
@@ -42,7 +45,7 @@ CON = CONJUNTIVITIS
 REGLAS 
 F ∧ DM ∧ CN ∧ TS -> GRI
 DA ∧ A ∧ N -> GAS
-DG ∧ DT ∧ F -> FAR
+(DG ∧ DT ∧ F ∧ B ∧ VG) ∧ GRI -> FAR
 DC ∧ N ∧ SL -> MIG
 PI ∧ PS ∧ EN -> DER
 E ∧ TL ∧ DG -> RES
@@ -52,7 +55,7 @@ EO ∧ P ∧ S ∧ L ∧ SC -> CON
 
 ¬(F ∧ DM ∧ CN ∧ TS) → ¬GRI
 ¬(DA ∧ A ∧ N) → ¬GAS
-¬(DG ∧ DT ∧ F) → ¬FAR
+¬(DG ∧ DT ∧ F) ∧ ¬GRI → ¬FAR
 ¬(DC ∧ N ∧ SL) → ¬MIG
 ¬(PI ∧ PS ∧ EN) → ¬DER
 ¬(E ∧ TL ∧ DG) → ¬RES
