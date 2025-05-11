@@ -11,9 +11,10 @@ Este proyecto consiste en un sistema experto diseñado para asistir en el diagn�
 
 ### Estructura del sistema
 El sistema se compone de tres elementos fundamentales, como lo suelen hacer los sistemas expertos:
-- Base de conocimiento : La base de conocimientos son las reglas en la cual el sistema se fundamenta. Cada instrucción tiene de forma aislada su propio concepto. Generalmente, estos conocimientos son de carácter declarativo, lo que indica que la base de conocimientos es una definición de sus propias características, y para la resolución de problemas, es necesario la intervención de un nuevo mecanismo.
+- Base de conocimiento : La base de conocimientos son las reglas en la cual el sistema se fundamenta. Cada instrucción tiene de forma aislada su propio concepto. Generalmente, estos conocimientos son de carácter declarativo, lo que indica que la base de conocimientos es una definición de sus propias características, y para la resolución de problemas, es necesario la intervención de un nuevo mecanismo. En este caso son las enfermedades, que se definen como hipotesis, y cada una depende de una combinacion de sintomas (hechos)
 
-- Motor de inferencias: El motor de inferencias es el responsable de seguir determinadas reglas (seleccionar las que considere oportunas) y ejecutarlas, con el objetivo de resolver un problema.
+
+- Motor de inferencias: El motor de inferencias es el responsable de seguir determinadas reglas (seleccionar las que considere oportunas) y ejecutarlas, con el objetivo de resolver un problema. El programa ejecuta el predicado evaluar/0, que inicia la consulta al usuario, analiza los síntomas afirmados y determina las enfermedades compatibles.
 
 - Base de Hechos: La base de hechos es la que almacena la información de las distintas fases de un sistema experto: datos de partida, criterios de parada, y la actualización de información conforme se ejecuta el sistema. La base de hechos es también denominada base de datos global o memoria de trabajo.
 
