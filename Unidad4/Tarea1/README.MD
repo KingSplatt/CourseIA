@@ -25,3 +25,7 @@ Las imágenes originales también se guardan para comparación.
 - [@Robles Rios Jacquelin](https://github.com/jacq1813)
 
 ## Documentation
+
+El dataset fue recopilado desde:
+
+https://universe.roboflow.com/my-workspace-2-9rl26/facial-emotion-detection-rijqy/dataset/2
